@@ -1,0 +1,14 @@
+# 依赖
+node_modules/
+
+# 运行数据 —— 含候选人个人信息（姓名 / 薪资期望 / 沟通记录），严禁上传
+state/
+
+# 本地实际配置（含岗位 / 业务信息），模板见 config.example.json
+config.json
+config.local.json
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+*.log

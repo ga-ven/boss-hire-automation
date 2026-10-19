@@ -1,0 +1,20 @@
+{
+  "_说明": "复制本文件为 config.json 后按需修改。config.json 已被 .gitignore 忽略，不会上传。",
+
+  "jobKeyword": "你的岗位关键字",
+
+  "filters": {
+    "_说明": "expectKeywords: 期望岗位需命中任一关键词，留空则不过滤；cityKeywords: 期望城市需命中任一，留空则不过滤；excludeContacted: 排除已出现在聊天列表里的人",
+    "expectKeywords": [],
+    "cityKeywords": [],
+    "excludeContacted": true
+  },
+
+  "greet": {
+    "_说明": "打招呼消耗额度，保守为上。perRunLimit = 单次最多打几个；delay = 相邻两人的随机间隔（毫秒）；maxConsecutiveFailures = 连续失败几次后熔断",
+    "perRunLimit": 5,
+    "delayMinMs": 25000,
+    "delayMaxMs": 70000,
+    "maxConsecutiveFailures": 3
+  }
+}
